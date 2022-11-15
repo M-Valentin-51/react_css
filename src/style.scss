@@ -1,0 +1,58 @@
+img {
+    max-width: 100vw;
+}
+
+h1 {
+    font-size: 2em;
+    color: #535252;
+}
+.title {
+    button{
+        border: none;
+        background-color: white;
+        color: rgb(44, 43, 43);
+    };
+    p {
+        margin-left: 20px;
+        display: inline-block;
+    };
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+ 
+.title button:hover,
+.title button:hover ~ button,
+.title button:focus,
+.title button:focus ~ button
+ {
+    color: yellow;
+}
+
+
+div {
+     ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+    li{
+        border-radius: 20px;
+        text-align: center;
+        padding: 5px 10px;
+        background-color: #b0b0b0;
+        width: 15vw;
+    }
+}
+.btn_action{
+    border: none;
+    background-color: white;
+    color: rgb(0, 81, 157);
+    margin: 5vh 0;
+    font-size: 1.3em;
+}
+.btn_action:active{
+        border: 1px solid black
+}
